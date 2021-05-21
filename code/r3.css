@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel');
+
+html, body{
+    background-image: url("https://getwallpapers.com/wallpaper/full/b/7/8/95868.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+.container-fluid{
+    color: #84817a;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 3em;
+    max-width: 1000px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container h1{
+    font-family: 'Cinzel', serif;
+}
+.container-fluid .modal-content{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+img{
+    cursor: pointer;
+    width: 340px;
+    margin-bottom: 1em;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+}
