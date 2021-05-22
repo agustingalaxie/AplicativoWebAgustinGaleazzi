@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>R4</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='r4.css'>
+
+</head>
+
+<body>
+    <h1>This is an app that shows all the countries and their capital city in a region. Select a region to get all the regions' countries and their capital city, subregion, population and flag.</h1>
+    <form class="form">
+        <select>
+            <option value="africa">Africa</option>
+            <option value="americas">Americas</option>
+            <option value="asia">Asia</option>
+            <option value="europe">Europe</option>
+            <option value="oceania">Oceania</option>
+        </select>
+        <button type="button" class="searchbutton" onClick="getCountries()">Search</button>
+
+    </form>
+    <table class="table hidden">
+        <tr>
+            <th>Name</th>
+            <th>Capital city</th>
+            <th>Subregion</th>
+            <th>Population</th>
+            <th>Flag</th>
+        </tr>
+    </table>
+
+    <script src='r4.js'></script>
+</body>
+
+</html>
