@@ -22,10 +22,20 @@ body{
     text-align: center;
 }
 .form select{
+    border: 2px solid var(--border-color);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: var(--first-row-bg-color);
+    border-radius: 20px;
+    padding: 2em;
+    cursor: pointer;
 }
 .form button{
+    border: 2px solid var(--border-color);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: var(--first-row-bg-color);
+    border-radius: 20px;
+    padding: 2em;
+    cursor: pointer;
 }
 table{
     margin-left: auto;
@@ -62,6 +72,30 @@ tr:hover{
 .hidden{
     display: none;
 }
+.contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
 @media screen and (max-width: 720px){
     body {
