@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel');
+:root {
+    --font-color: #84817a;
+}
+
+html, body{
+    background-image: url("https://getwallpapers.com/wallpaper/full/b/7/8/95868.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+.container-fluid{
+    color: var(--font-color);
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 3em;
+    max-width: 63rem;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid h1{
+    font-family: 'Cinzel', serif;
+}
+.container-fluid .modal-content{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+img{
+    cursor: pointer;
+    width: 22rem;
+    margin-bottom: 1em;
+}
+iframe{
+    width: 35rem;
+    height: 25rem;
+}
+@media (max-width: 68rem){
+    iframe{
+        width: 22rem;
+        height: 16rem;
+    }
+}

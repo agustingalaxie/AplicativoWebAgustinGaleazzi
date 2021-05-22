@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+:root {
+    --bg-color: #7f8fa6;
+    --font-color: #2f3640;
+    --border-color: #273c75;
+    --table-bg-color-even: #dcdde1;
+    --table-bg-color-odd: #fff;
+    --first-row-bg-color: #487eb0;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.flex-container{
+    overflow-x:auto;
+}
+.form{    
+    text-align: center;
+}
+.form select{
+    border: 2px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: var(--first-row-bg-color);
+    border-radius: 20px;
+    padding: 2em;
+    cursor: pointer;
+}
+.form button{
+    border: 2px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: var(--first-row-bg-color);
+    border-radius: 20px;
+    padding: 2em;
+    cursor: pointer;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    overflow-x:auto;
+};
+th{
+    font-weight: bold;
+}
+tr, th, td {
+    border: 2px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 0.5em;
+}
+th{
+    background-color: var(--first-row-bg-color);
+}
+tr:nth-child(even){
+    background-color: var(--table-bg-color-even);
+}
+tr:nth-child(odd){
+    background-color: var(--table-bg-color-odd);
+}
+tr:hover{
+    background-color: #7f8fa6;
+    color: #fff;
+}
+
+.hidden{
+    display: none;
+}
+.contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@media screen and (max-width: 720px){
+    body {
+        font-size: 1em;
+    }
+    tr, th, td {
+        border: 1px solid var(--border-color);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        padding: 0.2em;
+    }
+}
+
+@media screen and (max-width: 480px){ 
+body{
+    font-size: 0.7em;
+}
+th{
+    font-weight: lighter;
+}}
