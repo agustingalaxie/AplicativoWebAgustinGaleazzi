@@ -34,9 +34,11 @@ img{
 }
 iframe{
     width: 35rem;
+    height: 25rem;
 }
 @media (max-width: 68rem){
     iframe{
         width: 22rem;
+        height: 16rem;
     }
 }
